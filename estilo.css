@@ -1,0 +1,49 @@
+header{
+    border: solid;
+    background-color: red;
+    color: white;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+section{
+    color: white;
+}
+
+footer{
+    border: solid;
+    color: white;
+    background-color: palevioletred;
+    height: 50px;
+}
+#articulo{
+    background-color: chartreuse;
+    width: 19%;
+    height: 250px;
+}
+#aside{
+    background-color: gold;
+    width: 20%;
+    height: 250px;
+    text-align: center;
+   
+}
+#section{
+    height: 250px;
+    width: 60%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    position: relative;
+    top: 14px;
+}
+#section, #aside, #articulo{
+    display: inline-block;   
+}
+div{
+    font-size: 35px;
+}
+footer{
+    text-align: center;
+}
